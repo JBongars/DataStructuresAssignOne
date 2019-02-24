@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1550988132 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/src/DSFile.cpp
+	"DSFile.h"
+
+1550988132 /Users/julienbongars/Development/DataStructuresAssignOne/libs/include/DSFile.h
+
+1550988040 source:/Users/julienbongars/Development/DataStructuresAssignOne/main.cpp
+	<iostream>
+
+1550988754 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/src/DSTest.cpp
+	"DSTest.h"
+
+1550988797 /Users/julienbongars/Development/DataStructuresAssignOne/libs/include/DSTest.h
+
