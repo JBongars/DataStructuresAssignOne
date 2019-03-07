@@ -5,7 +5,6 @@ DS_Date::DS_Date()
     //ctor
 }
 
-DS_Date::~DS_Date()
-{
-    //dtor
-}
+const int DS_Date::getDateString(){
+
+};

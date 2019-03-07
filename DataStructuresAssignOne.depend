@@ -4,7 +4,7 @@
 
 1550988132 /Users/julienbongars/Development/DataStructuresAssignOne/libs/include/DSFile.h
 
-1550990218 source:/Users/julienbongars/Development/DataStructuresAssignOne/main.cpp
+1551959006 source:/Users/julienbongars/Development/DataStructuresAssignOne/main.cpp
 	<iostream>
 	"DSTest.h"
 
@@ -27,4 +27,9 @@
 	"DS_Vector.h"
 
 1551958832 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Vector.h
+
+1551961112 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Date.cpp
+	"DS_Date.h"
+
+1551961237 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Date.h
 
