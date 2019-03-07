@@ -4,11 +4,27 @@
 
 1550988132 /Users/julienbongars/Development/DataStructuresAssignOne/libs/include/DSFile.h
 
-1550988040 source:/Users/julienbongars/Development/DataStructuresAssignOne/main.cpp
+1550990218 source:/Users/julienbongars/Development/DataStructuresAssignOne/main.cpp
 	<iostream>
+	"DSTest.h"
 
 1550988754 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/src/DSTest.cpp
 	"DSTest.h"
 
-1550988797 /Users/julienbongars/Development/DataStructuresAssignOne/libs/include/DSTest.h
+1550991342 /Users/julienbongars/Development/DataStructuresAssignOne/libs/include/DSTest.h
+
+1551958812 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_File.cpp
+	"DS_File.h"
+
+1551958811 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_File.h
+
+1551958850 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_String.cpp
+	"DS_String.h"
+
+1551958850 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_String.h
+
+1551958833 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Vector.cpp
+	"DS_Vector.h"
+
+1551958832 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Vector.h
 
