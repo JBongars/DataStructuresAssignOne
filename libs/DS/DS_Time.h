@@ -7,9 +7,7 @@
 class DS_Time
 {
     public:
-        DS_Time();
-        DS_Time(int hour, int minute);
-        DS_Time(int hour, int minute, int second);
+        DS_Time(int hour = 0, int minute = 0, int second = 0);
         DS_Time(std::string iso);
 
         const int getHour();

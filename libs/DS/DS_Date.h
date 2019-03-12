@@ -6,9 +6,12 @@
 
 class DS_Date
 {
+    int Day;
+    int Month;
+    int Year;
+
     public:
-        DS_Date();
-        DS_Date(int year, int month, int day);
+        DS_Date(int year = 1970, int month = 1, int day = 1) : Day(day), Month(month), Year(year){ };
         DS_Date(std::string iso);
 
         const int getDay();
@@ -21,9 +24,6 @@ class DS_Date
         void setYear(int year);
 
     private:
-        int Day;
-        int Month;
-        int Year;
 
 };
 

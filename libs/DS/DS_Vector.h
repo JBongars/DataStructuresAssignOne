@@ -6,7 +6,10 @@ class DS_Vector
 {
     public:
         DS_Vector();
+
         virtual ~DS_Vector();
+
+
     protected:
     private:
 };
