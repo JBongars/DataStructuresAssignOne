@@ -2,8 +2,14 @@
 
 DS_StringStatic::DS_StringStatic(){}
 
-std::vector<std::string> DS_StringStatic::split(std::string input, std::string sbstring){
-    std::vector<std::string> result = { "hello world", "something else" };
+std::vector<std::string> DS_StringStatic::split(std::string input, std::string delimeter){
+    std::vector<std::string> result;
+    size_t pos = 0;
+
+    while ((pos = input.find(delimeter)) != std::string::npos) {
+        result.push_back(input.substr(0, pos));
+        input.erase(0, pos + delimeter.length());
+    }
     return result;
 }
 

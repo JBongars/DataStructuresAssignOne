@@ -1,19 +1,20 @@
 #ifndef DS_DATE_H
 #define DS_DATE_H
 
-#include "DS_String.h"
+#include <string>
+#include "DS_StringStatic.h"
 
 class DS_Date
 {
     public:
         DS_Date();
         DS_Date(int year, int month, int day);
-        DS_Date(DS_String date);
+        DS_Date(std::string iso);
 
         const int getDay();
         const int getMonth();
         const int getYear();
-        const int getDateString();
+        const std::string getDateString();
 
         void setDay(int day);
         void setMonth(int month);

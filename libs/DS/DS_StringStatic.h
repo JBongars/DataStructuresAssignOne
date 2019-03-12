@@ -11,7 +11,7 @@ class DS_StringStatic
 {
     public:
         DS_StringStatic();
-        static std::vector<std::string> split(std::string input, std::string sbstring);
+        static std::vector<std::string> split(std::string input, std::string delimeter);
         static int convertToInt(std::string input);
 };
 
