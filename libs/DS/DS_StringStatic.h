@@ -2,10 +2,8 @@
 #define DS_STRINGSTATIC_H
 
 #include <string>
-#include <string>
 #include <vector>
 #include <iostream>
-
 
 class DS_StringStatic
 {

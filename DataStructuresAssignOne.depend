@@ -4,9 +4,11 @@
 
 1550988132 /Users/julienbongars/Development/DataStructuresAssignOne/libs/include/DSFile.h
 
-1551959006 source:/Users/julienbongars/Development/DataStructuresAssignOne/main.cpp
+1552604548 source:/Users/julienbongars/Development/DataStructuresAssignOne/main.cpp
 	<iostream>
-	"DSTest.h"
+	<string>
+	"libs/DS/DS_Date.h"
+	"libs/DS/DS_Time.h"
 
 1550988754 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/src/DSTest.cpp
 	"DSTest.h"
@@ -16,7 +18,7 @@
 1551958812 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_File.cpp
 	"DS_File.h"
 
-1551958811 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_File.h
+1552503259 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_File.h
 
 1551958850 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_String.cpp
 	"DS_String.h"
@@ -26,17 +28,18 @@
 1551958833 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Vector.cpp
 	"DS_Vector.h"
 
-1552415609 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Vector.h
+1552503281 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Vector.h
 
-1552415730 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Date.cpp
+1552605032 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Date.cpp
 	"DS_Date.h"
 
-1552415714 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Date.h
+1552604651 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Date.h
+	<iostream>
 	<string>
+	<sstream>
 	"DS_StringStatic.h"
 
-1552413053 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_StringStatic.h
-	<string>
+1552605216 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_StringStatic.h
 	<string>
 	<vector>
 	<iostream>
@@ -46,14 +49,15 @@
 
 1552408629 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_DateTime.h
 
-1552414233 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_StringStatic.cpp
+1552604972 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_StringStatic.cpp
 	"DS_StringStatic.h"
 
-1552412566 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Time.cpp
+1552605061 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Time.cpp
 	"DS_Time.h"
 	"DS_StringStatic.h"
 
-1552412306 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Time.h
+1552605052 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Time.h
 	<string>
+	<sstream>
 	"DS_StringStatic.h"
 

@@ -13,8 +13,6 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="libs/include" />
-					<Add directory="include" />
 					<Add directory="libs" />
 					<Add directory="libs/DS" />
 				</Compiler>
@@ -26,8 +24,6 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
-					<Add directory="libs/include" />
-					<Add directory="include" />
 					<Add directory="libs" />
 					<Add directory="libs/DS" />
 				</Compiler>
@@ -44,8 +40,10 @@
 		<Unit filename="libs/DS/DS_Date.h" />
 		<Unit filename="libs/DS/DS_File.cpp" />
 		<Unit filename="libs/DS/DS_File.h" />
-		<Unit filename="libs/DS/DS_String.cpp" />
-		<Unit filename="libs/DS/DS_String.h" />
+		<Unit filename="libs/DS/DS_StringStatic.cpp" />
+		<Unit filename="libs/DS/DS_StringStatic.h" />
+		<Unit filename="libs/DS/DS_Time.cpp" />
+		<Unit filename="libs/DS/DS_Time.h" />
 		<Unit filename="libs/DS/DS_Vector.cpp" />
 		<Unit filename="libs/DS/DS_Vector.h" />
 		<Unit filename="main.cpp" />

@@ -1,23 +1,25 @@
+
 #include "DS_StringStatic.h"
 
 DS_StringStatic::DS_StringStatic(){}
 
 std::vector<std::string> DS_StringStatic::split(std::string input, std::string delimeter){
-    std::vector<std::string> result;
-    size_t pos = 0;
+    // std::vector<std::string> result;
+    std::vector<std::string> result("12", "12", "12");
+    // size_t pos = 0;
 
-    while ((pos = input.find(delimeter)) != std::string::npos) {
-        result.push_back(input.substr(0, pos));
-        input.erase(0, pos + delimeter.length());
-    }
+    // while ((pos = input.find(delimeter)) != std::string::npos) {
+    //     result.push_back(input.substr(0, pos));
+    //     input.erase(0, pos + delimeter.length());
+    // }
     return result;
 }
 
 int convertToInt(std::string input){
-    int result;
     try {
-        result = std::stoi(input);
-        return result;
+        // std::cout << "input is: " << input << std::endl;
+        int result = std::stoi(input);
+        return 1;
     }
 	catch (std::invalid_argument const &e)
 	{
@@ -27,4 +29,5 @@ int convertToInt(std::string input){
 	{
 		std::cout << "Integer overflow: std::out_of_range thrown" << '\n';
 	}
+    return 0;
 }
