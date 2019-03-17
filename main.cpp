@@ -4,11 +4,14 @@
 
 #include "libs/DS/DS_Date.h"
 #include "libs/DS/DS_Time.h"
+#include "libs/DS/DS_Menu.h"
 
 using namespace std;
 
 int main()
 {
+    DS_Menu::printHeader("Program Start");
+
     DS_Date dates[] = {
         DS_Date(2000, 1, 1),
         DS_Date(),
