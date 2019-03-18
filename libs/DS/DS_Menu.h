@@ -4,11 +4,8 @@
 #include <string>
 #include <iostream>
 
-class DS_Menu
-{
-    public:
-        DS_Menu();
-        static void printHeader(std::string header);
+namespace DS_Menu{
+    void printHeader(std::string header);
 };
 
 #endif // DS_MENU_H

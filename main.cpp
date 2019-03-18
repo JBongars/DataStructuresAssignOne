@@ -2,9 +2,9 @@
 #include <iostream>
 #include <string>
 
-#include "libs/DS/DS_Date.h"
-#include "libs/DS/DS_Time.h"
-#include "libs/DS/DS_Menu.h"
+#include "DS_Date.h"
+#include "DS_Time.h"
+#include "DS_Menu.h"
 
 using namespace std;
 

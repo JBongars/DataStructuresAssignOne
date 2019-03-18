@@ -1,8 +1,6 @@
 
 #include "DS_StringStatic.h"
 
-DS_StringStatic::DS_StringStatic(){}
-
 std::vector<std::string> DS_StringStatic::split(std::string input, std::string delimeter){
     std::vector<std::string> result;
     size_t pos = 0;

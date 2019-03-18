@@ -1,7 +1,5 @@
 #include "DS_Date.h"
 
-const unsigned char MAX_STR_LEN = 254;
-
 DS_Date::DS_Date(std::string iso){
     std::string timeStr = iso.substr(0, iso.find("T"));
     std::vector<std::string> result = DS_StringStatic::split(timeStr, "-");
