@@ -4,21 +4,22 @@
 #include <vector>
 #include <string>
 
-template<typename T> class DS_Vector
+template<typename T>
+class DS_Vector
 {
-    T obj; // the internal array
-    int realSize; // current size of the array
-    int virtualSize; // the size allocated in memory for the array
+    T * _obj; // the internal array
+    int _realSize; // current size of the array
+    int _virtualSize; // the size allocated in memory for the array
 
     private:
         void resize();
 
     public:
-        DS_Vector<T>();
-        DS_Vector<T>(std::vector<T> obj);
-        DS_Vector<T>(T obj[]);
+        DS_Vector() : _obj(new T[8]), _realSize(0), _virtualSize(8) { };
+        DS_Vector(std::vector<T> obj);
+        DS_Vector(T obj[]);
 
-        virtual ~DS_Vector<T>();
+        virtual ~DS_Vector();
 
         // ======================================
         // DIAGRAM
@@ -36,14 +37,14 @@ template<typename T> class DS_Vector
         // removes item from the start of the vector
         T unshift();
 
-        
+
         // returns the length of the vector
         int size() const;
         // returns the first item of the vector
         T start() const;
         // returns the last item in the vector
         T end() const;
-        
+
         // returns the item corresponding to the index i
         T getIndex(int i) const;
         // sets an item to item in the corresponding index i
@@ -69,7 +70,7 @@ template<typename T> class DS_Vector
         // joins an external vector to the current vector at the end
         // void join(DS_Vector obj);
 
-        
+
 };
 
 #endif // DS_VECTOR_H

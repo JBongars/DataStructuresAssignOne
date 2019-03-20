@@ -4,12 +4,13 @@
 
 1550988132 /Users/julienbongars/Development/DataStructuresAssignOne/libs/include/DSFile.h
 
-1552932765 source:/Users/julienbongars/Development/DataStructuresAssignOne/main.cpp
+1553101685 source:/Users/julienbongars/Development/DataStructuresAssignOne/main.cpp
 	<iostream>
 	<string>
 	"DS_Date.h"
 	"DS_Time.h"
 	"DS_Menu.h"
+	"DS_Vector.h"
 
 1550988754 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/src/DSTest.cpp
 	"DSTest.h"
@@ -26,14 +27,15 @@
 
 1551958850 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_String.h
 
-1552931939 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Vector.cpp
+1553101601 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Vector.cpp
 	"DS_Vector.h"
 
-1552931793 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Vector.h
+1553101998 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Vector.h
 	<vector>
 	<string>
+	<iostream>
 
-1552932665 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Date.cpp
+1553101067 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Date.cpp
 	"DS_Date.h"
 
 1552840737 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Date.h
@@ -64,7 +66,7 @@
 	<sstream>
 	"DS_StringStatic.h"
 
-1552837540 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Menu.cpp
+1552932831 source:/Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Menu.cpp
 	"DS_Menu.h"
 
 1552932533 /Users/julienbongars/Development/DataStructuresAssignOne/libs/DS/DS_Menu.h
